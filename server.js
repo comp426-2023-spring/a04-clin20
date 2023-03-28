@@ -48,4 +48,6 @@ app.all('*', (req, res) => {
     res.status(404).send('404 NOT FOUND').end();
 })
 
-app.listen(port);
+app.listen(port, () => {
+    console.log(`the app is listening!!! on port ${port}`)
+})
