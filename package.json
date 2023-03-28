@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a04-clin20.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "clin20",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a04-clin20/issues"
   },
@@ -19,7 +19,7 @@
   "dependencies": {
 	"express": "^4.18.2",
 	"minimist": "^1.2.8"
-  }
+  },
   "type": "module"
 
 }
